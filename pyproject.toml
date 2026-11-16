@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "free-ai-agent-kit"
+version = "0.1.0"
+description = "Build AI agents for $0 — free models, persistent memory, skills. No API key required to try."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+authors = [{name = "gauravyadav36"}]
+keywords = ["ai-agent", "agents", "openrouter", "free", "crypto", "memory", "skills"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.urls]
+Homepage = "https://github.com/gauravyadav36/free-ai-agent-kit"
+
+[tool.setuptools]
+packages = ["free_agent_kit"]
