@@ -2,7 +2,7 @@
 
 **Build AI agents for $0 — free models, persistent memory, skills. No API key required to try.**
 
-[![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org/)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![No dependencies](https://img.shields.io/badge/dependencies-zero-brightgreen)](requirements.txt)
 [![Tests](https://github.com/gauravyadav36/free-ai-agent-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/gauravyadav36/free-ai-agent-kit/actions/workflows/ci.yml)
@@ -136,7 +136,7 @@ pip install pytest
 pytest -q   # 8 passed, no API key needed
 ```
 
-CI runs the same suite on Python 3.9–3.12.
+CI runs the same suite on Python 3.10–3.13.
 
 ## Roadmap
 
